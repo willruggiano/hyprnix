@@ -13,21 +13,21 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprcursor.url = "github:hyprwm/hyprcursor/v0.1.13";
+    hyprcursor.url = "github:hyprwm/hyprcursor/e4ed7c08123df5af460a0a70961380cbfb872f76";
     hyprcursor.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
       hyprlang.follows = "hyprlang";
     };
 
-    hyprgraphics.url = "github:hyprwm/hyprgraphics/v0.5.1";
+    hyprgraphics.url = "github:hyprwm/hyprgraphics/344aff614cddd4b2286315e122a81e4f79e1282a";
     hyprgraphics.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
       hyprutils.follows = "hyprutils";
     };
 
-    hypridle.url = "github:hyprwm/hypridle/v0.1.8";
+    hypridle.url = "github:hyprwm/hypridle/aa958ed7ad4863860b93ecd7189419e193bfae2c";
     hypridle.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -53,7 +53,7 @@
       xdph.follows = "xdph";
     };
 
-    hyprland-guiutils.url = "github:hyprwm/hyprland-guiutils/v0.2.2";
+    hyprland-guiutils.url = "github:hyprwm/hyprland-guiutils/4c30cf3097ea963c0e250749ee0c59f8b08816d6";
     hyprland-guiutils.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -77,14 +77,14 @@
       systems.follows = "systems";
     };
 
-    hyprlang.url = "github:hyprwm/hyprlang/v0.6.8";
+    hyprlang.url = "github:hyprwm/hyprlang/9508458be316a0d70d37ebed1ab725ccd10411ff";
     hyprlang.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
       hyprutils.follows = "hyprutils";
     };
 
-    hyprlauncher.url = "github:hyprwm/hyprlauncher/v0.1.6";
+    hyprlauncher.url = "github:hyprwm/hyprlauncher/487fd4b174fd795f5dba3fdaa2b059eca1bcf7f7";
     hyprlauncher.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -97,7 +97,7 @@
       hyprwire.follows = "hyprwire";
     };
 
-    hyprlock.url = "github:hyprwm/hyprlock/v0.9.6";
+    hyprlock.url = "github:hyprwm/hyprlock/0332e40b8e56404f11cd79f859f208a4b9de8714";
     hyprlock.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -107,7 +107,7 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprpaper.url = "github:hyprwm/hyprpaper/v0.8.4";
+    hyprpaper.url = "github:hyprwm/hyprpaper/6a3bf6912c384a73740db4f734f1573ecc007c0e";
     hyprpaper.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -120,7 +120,7 @@
       hyprwire.follows = "hyprwire";
     };
 
-    hyprpicker.url = "github:hyprwm/hyprpicker/v0.4.7";
+    hyprpicker.url = "github:hyprwm/hyprpicker/dcc3f87d840433f74cfb3f836efe9fc6a73e361c";
     hyprpicker.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -132,11 +132,14 @@
     hyprpolkitagent.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
-      hyprland-qt-support.follows = "hyprland-qt-support";
+      aquamarine.follows = "aquamarine";
+      hyprgraphics.follows = "hyprgraphics";
+      hyprlang.follows = "hyprlang";
+      hyprtoolkit.follows = "hyprtoolkit";
       hyprutils.follows = "hyprutils";
     };
 
-    hyprpwcenter.url = "github:hyprwm/hyprpwcenter/v0.1.2";
+    hyprpwcenter.url = "github:hyprwm/hyprpwcenter/c31c45734f8e9e9f85fc3a42a52ea896e515e9e4";
     hyprpwcenter.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -146,7 +149,7 @@
       hyprutils.follows = "hyprutils";
     };
 
-    hyprshutdown.url = "github:hyprwm/hyprshutdown/v0.1.1";
+    hyprshutdown.url = "github:hyprwm/hyprshutdown/2d011c4a3dfb990004450e785608e91635f3d146";
     hyprshutdown.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -156,7 +159,7 @@
       hyprutils.follows = "hyprutils";
     };
 
-    hyprsunset.url = "github:hyprwm/hyprsunset/v0.4.0";
+    hyprsunset.url = "github:hyprwm/hyprsunset/471b385fb772beaaf57460d4fea8deba3f94b65f";
     hyprsunset.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -166,7 +169,7 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprtoolkit.url = "github:hyprwm/hyprtoolkit/v0.5.4";
+    hyprtoolkit.url = "github:hyprwm/hyprtoolkit/v0.6.0";
     hyprtoolkit.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -183,7 +186,7 @@
       systems.follows = "systems";
     };
 
-    hyprwayland-scanner.url = "github:hyprwm/hyprwayland-scanner/v0.4.6";
+    hyprwayland-scanner.url = "github:hyprwm/hyprwayland-scanner/62e62c1ca23da17612c6890d4ad2064f575643db";
     hyprwayland-scanner.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -196,7 +199,7 @@
       hyprutils.follows = "hyprutils";
     };
 
-    xdph.url = "github:hyprwm/xdg-desktop-portal-hyprland/v1.4.1";
+    xdph.url = "github:hyprwm/xdg-desktop-portal-hyprland/9f0e9ff02739cd538d39bd706422dc50e9ca60dd";
     xdph.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -236,7 +239,7 @@
           ...
         }:
         {
-          default = pkgs.hyprland;
+          default = pkgs.hyprland.override { inherit (pkgs) glaze-hyprland; };
           inherit (pkgs)
             aquamarine
             hyprcursor
@@ -268,12 +271,30 @@
 
       checks = self.packages;
 
-      overlays.default =
-        with nixpkgs.lib;
-        (composeManyExtensions (
-          mapAttrsToList (input: _: inputs.${input}.overlays.default) (
-            filterAttrs (name: _: name != "self" && name != "nixpkgs" && name != "systems") inputs
-          )
-        ));
+      overlays = {
+        default = nixpkgs.lib.composeManyExtensions [
+          self.overlays.hyprland
+          self.overlays.glaze
+        ];
+        hyprland =
+          with nixpkgs.lib;
+          (composeManyExtensions (
+            mapAttrsToList (input: _: inputs.${input}.overlays.default) (
+              filterAttrs (name: _: name != "self" && name != "nixpkgs" && name != "systems") inputs
+            )
+          ));
+        glaze = final: prev: {
+          glaze-hyprland = prev.glaze-hyprland.overrideAttrs {
+            version = "7.9.1"; # satisfies Hyprland's `find_package(glaze 7...<8)`
+            src = prev.fetchFromGitHub {
+              owner = "stephenberry";
+              repo = "glaze";
+              rev = "v7.9.1";
+              hash = "sha256-NRRq5MGF2f5PW0teYnq58ELzson+U6KHVPaY6r30KLA=";
+            };
+          };
+          hyprland = prev.hyprland.override { inherit (final) glaze-hyprland; };
+        };
+      };
     };
 }
