@@ -283,6 +283,8 @@
               filterAttrs (name: _: name != "self" && name != "nixpkgs" && name != "systems") inputs
             )
           ));
+
+        # TODO: remove when 0.57 is released
         glaze = final: prev: {
           glaze-hyprland = prev.glaze-hyprland.overrideAttrs {
             version = "7.9.1"; # satisfies Hyprland's `find_package(glaze 7...<8)`
